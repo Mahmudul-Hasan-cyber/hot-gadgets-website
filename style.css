@@ -1,0 +1,45 @@
+.container{
+    margin-bottom:100px;
+}
+p{
+    color: #333;
+}
+.bg-image{
+    background-image: url("images/bg2.png");
+    background-repeat: no-repeat;
+    background-position: -3% 120%;
+}
+.product-image{
+    background-image: url("images/best-product.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+.buy-now{
+background-color: #000;
+color:#fff;
+border:none;
+padding:8px 25px;
+border-radius: 8px;
+}
+
+.see-all{
+    color:orange;
+    float: right;
+}
+.card{
+    box-shadow: 5px 5px 10px lightgray;
+    text-align:center;
+}
+#categories h3:after{
+    content: '';
+    background-image: radial-gradient(orange,tomato);
+    display:block;
+    border-radius: 10px;
+    width: 125px;
+    height: 8px;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    color:#ddd;
+}
